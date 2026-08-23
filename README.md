@@ -1,10 +1,14 @@
 <div align="center">
 
-# ⚡ ESP32-C3 Wide-Input Development Board
+# ⚡ Enhanced Power Supply ESP32
 
-### A Complete Embedded Hardware Platform — Not Just a Breakout Board
+### Wide-Input (7–24 V) ESP32-C3 Development Board — A Complete Embedded Hardware Platform
 
 **Designed & Simulated in FOSSEE eSim (KiCad-based workflow)**
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/devakumar18dk-spec/eSim_PCB_Design_Project_Files)
+![Stars](https://img.shields.io/github/stars/devakumar18dk-spec/eSim_PCB_Design_Project_Files?style=for-the-badge&color=yellow)
+![Last Commit](https://img.shields.io/github/last-commit/devakumar18dk-spec/eSim_PCB_Design_Project_Files?style=for-the-badge&color=blue)
 
 ![MCU](https://img.shields.io/badge/MCU-ESP32--C3--WROOM--02-blue?style=for-the-badge&logo=espressif&logoColor=white)
 ![Input](https://img.shields.io/badge/Input-7--24V%20DC-orange?style=for-the-badge)
@@ -24,16 +28,20 @@
 <br>
 
 <p align="center">
-  <img src="assets/images/board-render.png" alt="ESP32-C3 Wide-Input Board — 3D Render" width="640">
+  <img src="assets/images/board-render.png" alt="Enhanced Power Supply ESP32 — 3D Render" width="640">
 </p>
 
 <p align="center"><sub>🧊 3D render of the routed 4-layer board — ESP32-C3-WROOM-02, USB-C, DC barrel jack, and dual GPIO headers.</sub></p>
 
 <div align="center">
 
-`Power In` → `Protection` → `5V Buck` → `3.3V LDO` → `ESP32-C3` ⚡
+`Power In (7–24V)` → `Protection` → `5V Buck` → `3.3V LDO` → `ESP32-C3` ⚡
 
 </div>
+
+```bash
+git clone https://github.com/devakumar18dk-spec/eSim_PCB_Design_Project_Files.git
+```
 
 ---
 
@@ -227,7 +235,7 @@ Local **4.7 µF** (bulk) and **100 nF** (high-frequency) capacitors sit right at
 
 </details>
 
-<div align="right"><sub><a href="#-esp32-c3-wide-input-development-board">⬆ back to top</a></sub></div>
+<div align="right"><sub><a href="#-enhanced-power-supply-esp32">⬆ back to top</a></sub></div>
 
 ---
 
@@ -396,7 +404,7 @@ The board is routed across **four copper layers**, each with a distinct role. To
 
 </details>
 
-<div align="right"><sub><a href="#-esp32-c3-wide-input-development-board">⬆ back to top</a></sub></div>
+<div align="right"><sub><a href="#-enhanced-power-supply-esp32">⬆ back to top</a></sub></div>
 
 ---
 
@@ -470,7 +478,7 @@ The board is routed across **four copper layers**, each with a distinct role. To
 </tr>
 </table>
 
-<div align="right"><sub><a href="#-esp32-c3-wide-input-development-board">⬆ back to top</a></sub></div>
+<div align="right"><sub><a href="#-enhanced-power-supply-esp32">⬆ back to top</a></sub></div>
 
 ---
 
@@ -508,7 +516,7 @@ System Requirements → Circuit Architecture → Component Selection
 ## 🗂 Repository Structure
 
 ```
-esp32-c3-wide-input-devboard/
+eSim_PCB_Design_Project_Files/
 ├── assets/
 │   └── images/
 │       ├── board-render.png       # 3D render
@@ -534,7 +542,8 @@ esp32-c3-wide-input-devboard/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/esp32-c3-wide-input-devboard.git
+   git clone https://github.com/devakumar18dk-spec/eSim_PCB_Design_Project_Files.git
+   cd eSim_PCB_Design_Project_Files
    ```
 2. **Open the schematic/PCB** in FOSSEE eSim or KiCad from the `hardware/` directory.
 3. **Review the Gerbers** in `hardware/gerbers/` before sending to fabrication.
@@ -575,6 +584,6 @@ This project is released under the **MIT License** — see [`LICENSE`](LICENSE) 
 
 **⭐ If this project helped you, consider starring the repository!**
 
-[⬆ Back to top](#-esp32-c3-wide-input-development-board)
+[⬆ Back to top](#-enhanced-power-supply-esp32)
 
 </div>
