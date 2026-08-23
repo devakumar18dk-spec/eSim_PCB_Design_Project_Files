@@ -28,7 +28,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/images/board-render.png" alt="Enhanced Power Supply ESP32 — 3D Render" width="640">
+  <img src="board-render.png" alt="Enhanced Power Supply ESP32 — 3D Render" width="640">
 </p>
 
 <p align="center"><sub>🧊 3D render of the routed 4-layer board — ESP32-C3-WROOM-02, USB-C, DC barrel jack, and dual GPIO headers.</sub></p>
@@ -342,7 +342,7 @@ Primary heat sources are the **buck converter**, **LDO**, and **protection MOSFE
 ## 📐 Schematic
 
 <p align="center">
-  <img src="assets/images/schematic.png" alt="Full Circuit Schematic" width="900">
+  <img src="schematic.png" alt="Full Circuit Schematic" width="900">
 </p>
 
 <div align="center">
@@ -367,8 +367,8 @@ The board is routed across **four copper layers**, each with a distinct role. To
 <th align="center">🟩 In1.Cu — Signal Layer</th>
 </tr>
 <tr>
-<td><img src="assets/images/pcb-layout-top.png" width="420"></td>
-<td><img src="assets/images/pcb-layout-in1.png" width="420"></td>
+<td><img src="pcb-layout-top.png" width="420"></td>
+<td><img src="pcb-layout-in1.png" width="420"></td>
 </tr>
 <tr>
 <td align="center"><sub>Primary power distribution & component-side routing</sub></td>
@@ -379,8 +379,8 @@ The board is routed across **four copper layers**, each with a distinct role. To
 <th align="center">🟦 B.Cu — Ground Plane</th>
 </tr>
 <tr>
-<td><img src="assets/images/pcb-layout-in2.png" width="420"></td>
-<td><img src="assets/images/pcb-layout-bottom.png" width="420"></td>
+<td><img src="pcb-layout-in2.png" width="420"></td>
+<td><img src="pcb-layout-bottom.png" width="420"></td>
 </tr>
 <tr>
 <td align="center"><sub>Secondary power/signal distribution channel</sub></td>
