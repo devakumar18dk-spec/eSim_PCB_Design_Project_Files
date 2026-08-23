@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name "KiCad")(type "KiCad")(uri "D:/KiCad/componensts/FOSSEE_LIBRARY_STM32/3.0SMCJ30A/KiCad")(options "")(descr ""))
+  (lib (name "esp32_c3_wroom_02")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/ul_ESP32-C3-WROOM-02-N4/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "STN3PF6")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/ul_STN3P6F6/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "MM3Z12VT1")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/ul_MM3Z12VT1/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LMR5410YQDBVRQ1")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/ul_LMR50410YQDBVRQ1/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LM1117MPX-3-3-NOPB")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/ul_LM1117MPX-3-3-NOPB/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PJ-202B")(type "KiCad")(uri "C:/Users/DEVA KUMAR.G/Downloads/PJ-202B/PJ-202B.pretty")(options "")(descr ""))
+)

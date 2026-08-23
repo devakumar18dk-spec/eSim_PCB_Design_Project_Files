@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3.0SMCJ30A
+D ESD Suppressors / TVS Diodes TVS 3KW 30V 5%UNI DO-214AB TR13 RoHS
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_3_0smcj_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

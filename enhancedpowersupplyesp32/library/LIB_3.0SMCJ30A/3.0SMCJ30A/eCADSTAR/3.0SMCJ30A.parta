@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15051429"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-02-04:44:52)
+    (utime 2023-12-12-06:25:49)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "3_0SMCJ30A")
+)
+
+
+(pinAssign "ECS_15051429"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-02-04:44:52)
+    (utime 2023-12-12-06:25:49)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15051429")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "3_0SMCJ30A")
+)
+
+
+(part "3_0SMCJ30A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-09-02-04:44:52)
+    (utime 2023-12-12-06:25:49)
+    (packageRef "3_0SMCJ30A")
+    (pinAssignRef "ECS_15051429")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes TVS 3KW 30V 5%UNI DO-214AB TR13 RoHS")
+    (property "Mouser_Part_Number" "576-3.0SMCJ30A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/3.0SMCJ30A?qs=TuK3vfAjtkU%2Ftm%2F%2FfFAgxA%3D%3D")
+    (property "Manufacturer_Name" "LITTELFUSE")
+    (property "Manufacturer_Part_Number" "3.0SMCJ30A")
+    (property "Datasheet_Link" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_3_0smcj_datasheet.pdf.pdf")
+    (property "compAreaTopHeight" 2.62)
+)
+
+

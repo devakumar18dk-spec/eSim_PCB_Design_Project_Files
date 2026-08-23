@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=3.0SMCJ30A
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2021-09-02 04:44:52
+Downloaded=2026-08-20 18:18:43
+3D=Y

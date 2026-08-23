@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\SPB_Data\eSim-Workspace\esp32evalutionboard\esp32evalutionboard.kicad_sch</source>
+    <date>22-08-2026 04:37:48</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32-C3-WROOM-02-N4 </title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32evalutionboard.kicad_sch</source>
+        <comment number="1" value="FOSSEE: Autunm insternship, TASK:07"/>
+        <comment number="2" value="esp32 with input of (24-7)v and conevrt to +5v&amp;+3V3 "/>
+        <comment number="3" value="made by :DEVA KUMAR.G"/>
+        <comment number="4" value="devakumar18dk@gmail.com"/>
+        <comment number="5" value="https://github.com/devakumar18dk-spec"/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="111U1">
+      <value>3.0SMCJ30A</value>
+      <footprint>footprints:SOD-323_1P8X1P35_ONS</footprint>
+      <fields>
+        <field name="Datasheet_1">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_3_0smcj_datasheet.pdf.pdf</field>
+        <field name="Footprint_1">DIOM7959X262N</field>
+        <field name="Height">2.62</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">3.0SMCJ30A</field>
+        <field name="Mouser Part Number">576-3.0SMCJ30A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/3.0SMCJ30A?qs=TuK3vfAjtkU%2Ftm%2F%2FfFAgxA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">3.0SMCJ30A</field>
+      </fields>
+      <libsource lib="3_0SMCJ30A" part="3.0SMCJ30A" description="ESD Suppressors / TVS Diodes TVS 3KW 30V 5%UNI DO-214AB TR13 RoHS"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="3.0SMCJ30A"/>
+      <property name="Footprint_1" value="DIOM7959X262N"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_3_0smcj_datasheet.pdf.pdf"/>
+      <property name="Height" value="2.62"/>
+      <property name="Mouser Part Number" value="576-3.0SMCJ30A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/3.0SMCJ30A?qs=TuK3vfAjtkU%2Ftm%2F%2FfFAgxA%3D%3D"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="3.0SMCJ30A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a18a85f8-c816-49d0-9d5a-8aa87efe9d5f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value> 10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor_polarised" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c66812f-f767-4c5b-982c-351d581dbc7a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value> 100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86869367-0bf9-43ee-b632-ee46fb3d4b1e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value> 100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eb1f590-3074-497a-a0f7-77d1174ef2c8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value> 4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79b71837-660a-4ee0-bf41-717efb4fb57d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value> 10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61739648-c84f-40d6-881a-fbb473eacb32</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value> 10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Field5">C</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="cap" description=""/>
+      <property name="Field5" value="C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9478b72-c44b-4b4d-b1a0-58e84347e115</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value> 4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e1d8526-ff4f-476a-af37-2edecdf8760c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5666ed2-7f73-40f1-bfda-b464ff8a1001</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value> 4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1223c02-94cf-4c45-b5fd-99839fe358c3</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5b0485a-632b-463d-8aa1-dcfbb0694799</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccaefec3-a3a7-48f2-8499-ba402a1a9914</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd735e30-d044-4be2-9d9c-f60b27bd22f4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value> 4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9cefb39-9625-439a-9ac3-adf0b10e97b3</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value> 4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aed2e08c-2e20-4f28-8aeb-d17d88686299</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PESD5V0L4UF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-886</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf</datasheet>
+      <libsource lib="Power_Protection" part="PESD5V0L4UF" description="Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cd46049-09ec-443a-b06d-35008ce20815</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>EJ508B</value>
+      <footprint>EJ508B:MPD_EJ508B</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Power Barrel Connector Jack 2.50mm ID (0.098), 5.50mm OD (0.217) Through Hole, Right Angle
+                        
+</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.67 mm</field>
+        <field name="MF">MPD</field>
+        <field name="MP">EJ508B</field>
+        <field name="PARTREV">G</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="EJ508B" part="EJ508B" description=""/>
+      <property name="MF" value="MPD"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.67 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="G"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=snap"/>
+      <property name="MP" value="EJ508B"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Power Barrel Connector Jack 2.50mm ID (0.098), 5.50mm OD (0.217) Through Hole, Right Angle&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1ddd08b-5be1-48a6-a427-de64b5e230a1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da8de281-b6d8-4bad-965f-45ae16efc66b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3f7eebc-6f95-402c-a628-7434d1239fa1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8128c499-c0bc-45e5-8815-547f91f6f3d7</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value> 4.7uF</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <fields>
+        <field name="Field5">L</field>
+      </fields>
+      <libsource lib="LTspice_sym" part="ind" description=""/>
+      <property name="Field5" value="L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b89878de-48e4-40f9-a3d5-41e2d1760637</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>STN3P6F6</value>
+      <footprint>STN3PF6:SOT223_STN3_STM</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stn3p6f6.pdf</datasheet>
+      <libsource lib="2026-08-20_22-27-09" part="STN3P6F6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86256f4e-f276-495a-9293-a779262ef2e9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>F100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4b954f1-5ce2-471e-a819-2045ef1ac306</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value> 100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4923981b-561f-4a97-a356-c4ea695d8afc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value> 88.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e5ce011-d9ad-4791-a546-8ba4f46a83de</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value> 22.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08933dab-c9e6-4197-9a80-3c2ef0c451a6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4affa6e7-12ee-46b4-94ef-58e1b417c8a3</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value> 5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d069e4-fc84-4fef-9b3f-e85e5d8861d1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e4a8f5a-db2b-43bf-b94b-9c0f06f9d2dc</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29d47198-25fe-4824-bb3c-e390b84d9f83</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67329f89-a6e9-4809-88fe-e8b66df62b88</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f02453bf-b96e-4b75-a6b9-1a81e1b487e5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value> 5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d12e2ca6-52ed-479d-b97f-270577bc5f31</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d687f45f-3d0a-4b81-903e-0d3215c0d9a3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="eSim_Devices" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>895c5a2d-ab98-43c3-bd03-b1fb344b3166</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd06638-1cd7-4dae-b4ac-08833cb5300e</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d90f41-1c60-4008-b53e-e1136298ad55</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MM3Z12VT1</value>
+      <footprint>MM3Z12VT1:SOD-323_1P8X1P35_ONS</footprint>
+      <datasheet>MM3Z12VT1</datasheet>
+      <libsource lib="2026-08-20_17-13-44" part="MM3Z12VT1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d758c44a-3755-4c49-a821-ca9ad0222f9f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LMR50410YQDBVRQ1</value>
+      <footprint>LMR5410YQDBVRQ1:DBV0006A-IPC_A</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/lmr50410-q1</datasheet>
+      <libsource lib="2026-08-20_17-06-14" part="LMR50410YQDBVRQ1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>832e3a19-dbef-4e9b-9e0c-ca5173bfcbd8</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM1117MPX-3.3_NOPB</value>
+      <footprint>LM1117MPX-3-3-NOPB:DCY0004A_L</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/lm1117</datasheet>
+      <libsource lib="2026-08-20_17-07-59" part="LM1117MPX-3.3_NOPB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>116bcb49-add0-4649-8738-a4e4a612da75</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf9c483d-e8ee-40ac-a822-e7eb9615437c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ESP32-C3-WROOM-02-N4</value>
+      <footprint>ESP32-C3-WROOM-02-N4:MODULE_ESP32-C3-WROOM-02-H4</footprint>
+      <fields>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C</field>
+        <field name="Description">
+                        
+                            WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C
+                        
+</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MP">ESP32-C3-WROOM-02-N4</field>
+        <field name="PACKAGE">Package</field>
+        <field name="PRICE">None</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ESP32-C3-WROOM-02-N4" part="ESP32-C3-WROOM-02-N4" description=""/>
+      <property name="MF" value="Espressif Systems"/>
+      <property name="DESCRIPTION" value="WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C"/>
+      <property name="PACKAGE" value="Package"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="Package"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=eda"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-C3-WROOM-02-N4"/>
+      <property name="Description" value="&#xA;                        &#xA;                            WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4ae5287-6158-41f2-ba9a-79d90e83a340</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32evalutionboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48cafb8e-62fa-4299-b823-d24540fcb1bd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2026-08-20_17-06-14" part="LMR50410YQDBVRQ1">
+      <docs>https://www.ti.com/lit/gpn/lmr50410-q1</docs>
+      <footprints>
+        <fp>DBV0006A-IPC_A</fp>
+        <fp>DBV0006A-IPC_B</fp>
+        <fp>DBV0006A-IPC_C</fp>
+        <fp>DBV0006A-MFG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LMR50410YQDBVRQ1</field>
+        <field name="Footprint">DBV0006A-IPC_A</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/lmr50410-q1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="unspecified"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="unspecified"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="SW" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="2026-08-20_17-07-59" part="LM1117MPX-3.3_NOPB">
+      <docs>https://www.ti.com/lit/gpn/lm1117</docs>
+      <footprints>
+        <fp>DCY0004A_N</fp>
+        <fp>DCY0004A_M</fp>
+        <fp>DCY0004A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">LM1117MPX-3.3_NOPB</field>
+        <field name="Footprint">DCY0004A_N</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/lm1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="power_in"/>
+        <pin num="3" name="INPUT" type="bidirectional"/>
+        <pin num="4" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="2026-08-20_17-13-44" part="MM3Z12VT1">
+      <docs>MM3Z12VT1</docs>
+      <footprints>
+        <fp>SOD-323_1P8X1P35_ONS</fp>
+        <fp>SOD-323_1P8X1P35_ONS-M</fp>
+        <fp>SOD-323_1P8X1P35_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MM3Z12VT1</field>
+        <field name="Footprint">SOD-323_1P8X1P35_ONS</field>
+        <field name="Datasheet">MM3Z12VT1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="unspecified"/>
+        <pin num="2" name="A" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2026-08-20_22-27-09" part="STN3P6F6">
+      <docs>https://www.st.com/resource/en/datasheet/stn3p6f6.pdf</docs>
+      <footprints>
+        <fp>SOT223_STN3_STM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">STN3P6F6</field>
+        <field name="Footprint">SOT223_STN3_STM</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stn3p6f6.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="D" type="unspecified"/>
+        <pin num="3" name="S" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="3_0SMCJ30A" part="3.0SMCJ30A">
+      <description>ESD Suppressors / TVS Diodes TVS 3KW 30V 5%UNI DO-214AB TR13 RoHS</description>
+      <fields>
+        <field name="Value">3.0SMCJ30A</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">3.0SMCJ30A</field>
+        <field name="Footprint_1">DIOM7959X262N</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_3_0smcj_datasheet.pdf.pdf</field>
+        <field name="Height">2.62</field>
+        <field name="Mouser Part Number">576-3.0SMCJ30A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/3.0SMCJ30A?qs=TuK3vfAjtkU%2Ftm%2F%2FfFAgxA%3D%3D</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">3.0SMCJ30A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EJ508B" part="EJ508B">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EJ508B</field>
+        <field name="Footprint">EJ508B:MPD_EJ508B</field>
+        <field name="MF">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.67 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">G</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EJ508B/MPD/view-part/?ref=snap</field>
+        <field name="MP">EJ508B</field>
+        <field name="Description">
+                        
+                            Power Barrel Connector Jack 2.50mm ID (0.098), 5.50mm OD (0.217) Through Hole, Right Angle
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">MPD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-C3-WROOM-02-N4" part="ESP32-C3-WROOM-02-N4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-WROOM-02-N4</field>
+        <field name="Footprint">ESP32-C3-WROOM-02-N4:MODULE_ESP32-C3-WROOM-02-H4</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="DESCRIPTION">WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C</field>
+        <field name="PACKAGE">Package</field>
+        <field name="PRICE">None</field>
+        <field name="Package">Package</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-C3-WROOM-02-N4/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-C3-WROOM-02-N4</field>
+        <field name="Description">
+                        
+                            WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +85 C
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IO4" type="bidirectional"/>
+        <pin num="4" name="IO5" type="bidirectional"/>
+        <pin num="5" name="IO6" type="bidirectional"/>
+        <pin num="6" name="IO7" type="bidirectional"/>
+        <pin num="7" name="IO8" type="bidirectional"/>
+        <pin num="8" name="IO9" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO10" type="bidirectional"/>
+        <pin num="11" name="RXD" type="bidirectional"/>
+        <pin num="12" name="TXD" type="bidirectional"/>
+        <pin num="13" name="IO18" type="bidirectional"/>
+        <pin num="14" name="IO19" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO2" type="bidirectional"/>
+        <pin num="17" name="IO1" type="bidirectional"/>
+        <pin num="18" name="IO0" type="bidirectional"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GND" type="power_in"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GND" type="power_in"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTspice_sym" part="cap">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">cap</field>
+        <field name="Field5">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTspice_sym" part="ind">
+      <footprints>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">ind</field>
+        <field name="Field5">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="PESD5V0L4UF">
+      <description>Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-886</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf</docs>
+      <footprints>
+        <fp>SOT?886*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD5V0L4UF</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-886</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K2" type="passive"/>
+        <pin num="4" name="K3" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+        <pin num="6" name="K4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="capacitor">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="capacitor_polarised">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">capacitor_polarised</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="resistor">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2026-08-20_17-06-14">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/ul_LMR50410YQDBVRQ1/KiCADv6/2026-08-20_17-06-14.kicad_sym</uri>
+    </library>
+    <library logical="2026-08-20_17-07-59">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/ul_LM1117MPX-3-3-NOPB/KiCADv6/2026-08-20_17-07-59.kicad_sym</uri>
+    </library>
+    <library logical="2026-08-20_17-13-44">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/ul_MM3Z12VT1/KiCADv6/2026-08-20_17-13-44.kicad_sym</uri>
+    </library>
+    <library logical="2026-08-20_22-27-09">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/ul_STN3P6F6/KiCADv6/2026-08-20_22-27-09.kicad_sym</uri>
+    </library>
+    <library logical="3_0SMCJ30A">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/LIB_3.0SMCJ30A/3.0SMCJ30A/KiCad/3_0SMCJ30A.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="EJ508B">
+      <uri>C:/Users/DEVA KUMAR.G/Downloads/EJ508B/EJ508B.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-C3-WROOM-02-N4">
+      <uri>C:\Users\DEVA KUMAR.G\Downloads\ESP32-C3-WROOM-02-N4\ESP32-C3-WROOM-02-N4.kicad_sym</uri>
+    </library>
+    <library logical="LTspice_sym">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/LTspice_sym.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="eSim_Devices">
+      <uri>C:\FOSSEE\KiCad\share\kicad\symbols\/eSim_Devices.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C3" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C4" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="C5" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="INPUT" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/D+">
+      <node ref="J2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="3" name="/D-">
+      <node ref="J2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Vin">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Vin_F">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="K" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="6" name="EN">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="111U1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C4" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C5" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C6" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="5" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="OUT" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="24" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="25" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="26" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="27" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="30" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="31" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="32" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="34" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="35" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="36" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="I02">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="I03">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="I04">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="I05">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="I06">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="I07">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="I08">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="I09">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="I010">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(111U1-Pad1)">
+      <node ref="111U1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="CB" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="L1" pin="2" pinfunction="B" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="SW" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="OUT" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="27" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="28" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(U5-Pad17)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="IO1" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(U5-Pad18)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="IO0" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="RX">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="TX">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="USB_D+">
+      <node ref="U4" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="USB_D-">
+      <node ref="U4" pin="4" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="VBUS">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K1" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(J2-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+  </nets>
+</export>
